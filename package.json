@@ -10,6 +10,7 @@
 		"postinstall": "husky install"
 	},
 	"dependencies": {
+		"@headlessui/react": "^1.7.13",
 		"eslint": "8.35.0",
 		"eslint-config-next": "13.2.3",
 		"next": "13.2.3",

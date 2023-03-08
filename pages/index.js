@@ -1,4 +1,4 @@
-import Header from '@/components/ui/Header'
+import Navigation from '@/components/ui/header/Navigation'
 import Head from 'next/head'
 
 
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=''>
-        <Header />
+        <Navigation />
         <div>
           <h3 className=''>Home Page</h3>
         </div>
