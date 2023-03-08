@@ -1,3 +1,4 @@
+import Header from '@/components/ui/Header'
 import Head from 'next/head'
 
 
@@ -10,9 +11,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='container'>
+      <main className=''>
+        <Header />
         <div>
-          <h3>Home Page</h3>
+          <h3 className=''>Home Page</h3>
         </div>
       </main>
     </>
