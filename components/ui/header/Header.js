@@ -6,6 +6,7 @@ import { CiLocationOn, CiUser } from 'react-icons/ci';
 import { MdLocalOffer } from 'react-icons/md';
 import Search from "./Search";
 
+
 const Header = ({ toggoleDrower }) => {
   return (
     <header className="">
@@ -71,7 +72,7 @@ const Header = ({ toggoleDrower }) => {
 
             </div>
         </div>
-
+        
 
         {/* Navbar */}
         <nav className="lg:block hidden bg-[#333333] text-white">
@@ -82,7 +83,7 @@ const Header = ({ toggoleDrower }) => {
                         <span>Browse Categories</span>
                         <BsChevronDown size={15} />
                     </div>
-                    <div className="absolute left-0 top-full w-full bg-white text-[#5c5959] shadow invisible opacity-0 group-hover:visible group-hover:opacity-100 divide-y">
+                    <div className="absolute left-0 top-full z-50 w-full bg-white text-[#5c5959] shadow invisible opacity-0 group-hover:visible group-hover:opacity-100 divide-y">
                         <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
                             <BiHomeAlt2 size={20} />
                             <span className="text-sm">Fashion</span>

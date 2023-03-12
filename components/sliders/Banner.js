@@ -19,10 +19,10 @@ const Banner = () => {
       <Swiper
           spaceBetween={50}
           slidesPerView={1}
-          autoplay={{ delay: 1000 }}
+          autoplay={{ delay: 1500 }}
       >
           <SwiperSlide className=''>
-            <div className='lg:h-[600px] h-[300px] w-full flex items-center lg:px-0 px-5' style={{ background: `url(${sliceImg1.src})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+            <div className='lg:h-[600px] h-[300px] w-full flex items-center' style={{ background: `url(${sliceImg1.src})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
                 <div className='container leading-none space-y-2'>
                       <p className='text-[16px] uppercase'>ShoperEase online store</p>
                     <h1 className='lg:text-[60px] text-[30px] text-[#333333] font-semibold'>Season Fashion</h1>
