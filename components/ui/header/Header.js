@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AiOutlineHeart, AiOutlineMenu, AiOutlineUnorderedList } from "react-icons/ai";
-import { BiHomeAlt2, BiShoppingBag } from 'react-icons/bi';
-import { BsChevronDown, BsTelephone } from 'react-icons/bs';
+import { BiShoppingBag } from 'react-icons/bi';
+import { BsTelephone } from 'react-icons/bs';
 import { CiLocationOn, CiUser } from 'react-icons/ci';
 import { MdLocalOffer } from 'react-icons/md';
 import Search from "./Search";
@@ -72,57 +72,16 @@ const Header = ({ toggoleDrower }) => {
 
             </div>
         </div>
-        
 
         {/* Navbar */}
         <nav className="lg:block hidden bg-[#333333] text-white">
             <div className="container flex items-center gap-6">
-                <div className="group relative bg-[#42A4E8] py-3 px-4 cursor-pointer">
+                <div className="relative bg-[#42A4E8] py-3 px-4 cursor-pointer">
                     <div className="flex justify-between items-center gap-4">
                         <AiOutlineUnorderedList size={25} />
                         <span>Browse Categories</span>
-                        <BsChevronDown size={15} />
                     </div>
-                    <div className="absolute left-0 top-full z-50 w-full bg-white text-[#5c5959] shadow invisible opacity-0 group-hover:visible group-hover:opacity-100 divide-y">
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Fashion</span>
-                        </Link>
-
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Home & Screen</span>
-                        </Link>
-
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Electroics</span>
-                        </Link>
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Health & Beauty</span>
-                        </Link>
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Gift Idea</span>
-                        </Link>
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Cooking</span>
-                        </Link>
-
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Smart Phone</span>
-                        </Link>
-
-                        <Link href="/" className="py-4 px-3 flex gap-2 hover:text-[#42a4e8]">
-                            <BiHomeAlt2 size={20} />
-                            <span className="text-sm">Computers</span>
-                        </Link>
-
-
-                    </div>
+                    
                 </div>
 
                 <div className="flex-1 flex justify-between items-center">
@@ -145,7 +104,6 @@ const Header = ({ toggoleDrower }) => {
                     </div>                    
                 </div>
             </div>
-            
         </nav>
 
     </header>
