@@ -15,7 +15,11 @@ module.exports = {
         desktop: "1240px"
       }
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: "'Poppins', sans-serif",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }

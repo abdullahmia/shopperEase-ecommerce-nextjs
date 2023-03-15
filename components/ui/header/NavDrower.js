@@ -7,10 +7,10 @@ const NavDrower = ({ isDrowerOpen, setIsDrowerOpen }) => {
   return (
     <>
         {
-            isDrowerOpen && <div onClick={setIsDrowerOpen} className="lg:hidden block h-full w-full z-[100] absolute top-0 left-0 bg-black opacity-20 transition duration-150"></div>
+            isDrowerOpen && <div onClick={setIsDrowerOpen} className="lg:hidden block h-full w-full z-[100] fixed top-0 left-0 bg-black opacity-20 transition duration-150"></div>
         }
         
-        <div className="lg:hidden block z-[150] absolute -left-1 top-0 h-screen w-[75%] bg-[#222222] transition duration-150 p-5" style={{ transform: `translateX(${isDrowerOpen ? "0" : "-100%"})` }}>
+        <div className="lg:hidden block z-[150] fixed -left-1 top-0 h-screen w-[75%] bg-[#222222] transition duration-150 p-5" style={{ transform: `translateX(${isDrowerOpen ? "0" : "-100%"})` }}>
             <div>
                 <form className='w-full border border-gray-700 flex pr-3'>
                     <input type="text" placeholder="Search..." className='flex-1 p-2 focus:outline-none bg-transparent' />

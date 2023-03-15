@@ -1,10 +1,15 @@
 import Image from "next/image";
+import { useRouter } from 'next/router';
 import { AiFillStar, AiOutlineHeart } from "react-icons/ai";
 import productImg from '../../public/product.jpg';
 
 const Product = () => {
+    const router = useRouter();
+    const redirectProduct = () => {
+        router.push('/product/product-hulk');
+    }
   return (
-    <div className="group">
+    <div onClick={redirectProduct} className="group cursor-pointer">
         <div className="relative">
             <Image src={productImg.src} height={260} width={230} alt="Product" />
             <div className="hidden group-hover:block">

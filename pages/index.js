@@ -105,10 +105,10 @@ export default function Home() {
           </div>
 
           {/* Products */}
-          <Products label='Clothing & Apparel' />
+          <Products label='Clothing & Apparel' row={5} />
 
           <div className='my-12'>
-            <Products label='Consumer Electronics' />
+            <Products label='Consumer Electronics' row={5} />
           </div>
 
 
@@ -151,7 +151,7 @@ export default function Home() {
 
 
           {/* Products */}
-          <Products label='Toys, Kids & Babies' />
+          <Products label='Toys, Kids & Babies' row={5} />
 
 
           {/* Our Clients & Latest Blogs */}
