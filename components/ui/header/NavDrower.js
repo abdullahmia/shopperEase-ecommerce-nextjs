@@ -1,6 +1,5 @@
 import { Tab } from '@headlessui/react';
 import Link from 'next/link';
-import { AiOutlineSearch } from "react-icons/ai";
 
 
 const NavDrower = ({ isDrowerOpen, setIsDrowerOpen }) => {
@@ -11,12 +10,9 @@ const NavDrower = ({ isDrowerOpen, setIsDrowerOpen }) => {
         }
         
         <div className="lg:hidden block z-[150] fixed -left-1 top-0 h-screen w-[75%] bg-[#222222] transition duration-150 p-5" style={{ transform: `translateX(${isDrowerOpen ? "0" : "-100%"})` }}>
-            <div>
-                <form className='w-full border border-gray-700 flex pr-3'>
-                    <input type="text" placeholder="Search..." className='flex-1 p-2 focus:outline-none bg-transparent' />
-                    <button className="text-white">
-                        <AiOutlineSearch size={20} />
-                    </button>
+            <div className='w-full'>
+                <form>
+                      <input type="text" placeholder='Search' className='w-full p-2 focus:outline-none bg-transparent' />
                 </form>
             </div>
 
