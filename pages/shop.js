@@ -25,7 +25,7 @@ export default function Shop () {
                 <div className="p-16" style={{ background: `url(${shopBanner.src})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                     <div>
                         <h3 className="text-[26px] font-[600] text-[#333]">Accessories Collection</h3>
-                        <h2 className="text-[40px] font-[600] text-[#fff] uppercase">SMART WRIST WATCHES</h2>
+                        <h2 className="text-[40px] font-[600] text-[#fff] uppercase mb-3">SMART WRIST WATCHES</h2>
                         <Link href="/shop" className="bg-[#333] text-white font-semibold uppercase px-8 py-3 rounded">discover now</Link>
                     </div>
                 </div>

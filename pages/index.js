@@ -2,7 +2,6 @@ import Blogs from '@/components/blogs/Blogs';
 import Categories from '@/components/category/Categories';
 import Products from '@/components/products/Products';
 import Banner from '@/components/sliders/Banner';
-import Subscribe from '@/components/subscribe/Subscribe';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -177,14 +176,7 @@ export default function Home() {
               <Blogs label="From Our Blog" />
             </div>
           </div>
-
-          {/* Subscribe */}
-          <Subscribe />
-
         </div>
-
-
-        {/* Footer */}
       </main>
     </>
   )

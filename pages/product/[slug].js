@@ -1,6 +1,5 @@
 import ProductDetail from "@/components/product/ProductDetail";
 import Products from "@/components/products/Products";
-import Subscribe from "@/components/subscribe/Subscribe";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -153,7 +152,6 @@ const Product = () => {
                 <Products label="Related Products" row={5} />
             </div>
         </main>
-        <Subscribe />
     </>
   )
 }

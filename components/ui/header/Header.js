@@ -1,13 +1,16 @@
 import Link from "next/link";
+import { useState } from "react";
 import { AiOutlineHeart, AiOutlineMenu, AiOutlineUnorderedList } from "react-icons/ai";
 import { BiHomeAlt2, BiShoppingBag } from 'react-icons/bi';
 import { BsChevronDown, BsTelephone } from 'react-icons/bs';
 import { CiLocationOn, CiUser } from 'react-icons/ci';
 import { MdLocalOffer } from 'react-icons/md';
+import CartDrower from '../../cart/cartDrower';
 import Search from "./Search";
 
 
 const Header = ({ toggoleDrower }) => {
+    const [cartOpen, setCartOpen] = useState(false);
   return (
     <header className="">
         {/* Header Top */}
@@ -64,10 +67,11 @@ const Header = ({ toggoleDrower }) => {
                         <AiOutlineHeart size={33} className="m-auto" />
                         <span className="text-sm">Wishlist</span>
                     </Link>
-                    <button className="text-[#333] hover:text-[#42a4e8]">
+                    <button onClick={() => setCartOpen(true)} className="text-[#333] hover:text-[#42a4e8]">
                         <BiShoppingBag size={33} className="m-auto" />
                         <span className="text-sm hidden lg:block">Cart</span>
                     </button>
+                    <CartDrower open={cartOpen} setOpen={setCartOpen} />
                 </div>
 
             </div>
@@ -132,6 +136,7 @@ const Header = ({ toggoleDrower }) => {
                     <div className="space-x-8 text-[14px] font-[600]">
                         <Link href="/" >Home</Link>
                         <Link href="/shop">Shop</Link>
+                        <Link href="/cart">Cart</Link>
                         <Link href="/blog">Blog</Link>
                         <Link href="/about">About Us</Link>
                         <Link href="/contact">Contact Us</Link>
