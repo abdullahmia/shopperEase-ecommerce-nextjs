@@ -1,5 +1,5 @@
 import ProductDetail from "@/components/product/ProductDetail";
-import Products from "@/components/products/Products";
+import Products from "@/components/products";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";

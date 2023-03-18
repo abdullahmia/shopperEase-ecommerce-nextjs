@@ -1,4 +1,4 @@
-import Product from "./Product"
+import Product from "./product"
 
 const Products = ({label = "", products = [], row}) => {
   return (

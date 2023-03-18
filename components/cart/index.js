@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { BsArrowLeft } from "react-icons/bs";
-import CartItem from "./CartItem";
-import CartTotal from "./CartTotal";
-import Coupon from "./Coupon";
+import CartItem from "./cartItem";
+import CartTotal from "./cartTotal";
+import Coupon from "./coupon";
 
 const index = () => {
 	return (

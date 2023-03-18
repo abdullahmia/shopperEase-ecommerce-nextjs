@@ -1,4 +1,5 @@
 import { Dialog, Transition } from '@headlessui/react';
+import Link from 'next/link';
 import { Fragment } from 'react';
 import { BiX } from 'react-icons/bi';
 
@@ -89,7 +90,7 @@ export default function CartDrower({open, setOpen}) {
                                                                     <div>
                                                                         <div className="flex justify-between text-base font-medium text-gray-900">
                                                                             <h3>
-                                                                                <a href={product.href}>{product.name}</a>
+                                                                                <Link href={product.href}>{product.name}</Link>
                                                                             </h3>
                                                                             <p className="ml-4">{product.price}</p>
                                                                         </div>
@@ -122,12 +123,11 @@ export default function CartDrower({open, setOpen}) {
                                             </div>
                                             <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
                                             <div className="mt-6">
-                                                <a
-                                                    href="#"
+                                                <Link href="/checkout"
                                                     className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                                                 >
                                                     Checkout
-                                                </a>
+                                                </Link>
                                             </div>
                                             <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
                                                 <p>

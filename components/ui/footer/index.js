@@ -3,8 +3,8 @@ import Link from "next/link";
 import { AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai";
 import { BsInstagram, BsPinterest } from "react-icons/bs";
 import { FaFacebookF } from 'react-icons/fa';
-import fotterLogo from '../../public/footer-logo.png';
-import payment from '../../public/payment.png';
+import fotterLogo from '../../../public/footer-logo.png';
+import payment from '../../../public/payment.png';
 
 const Footer = () => {
     return (

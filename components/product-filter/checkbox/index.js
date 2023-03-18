@@ -8,4 +8,4 @@ const Checkbox = ({ name, id }) => {
   )
 }
 
-export default Checkbox
+export default Checkbox;

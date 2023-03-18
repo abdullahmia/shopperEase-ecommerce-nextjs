@@ -1,5 +1,5 @@
-import CheckoutDetail from "./CheckoutDetail"
-import Form from "./Form"
+import CheckoutDetail from "./checkoutDetail"
+import Form from "./form"
 
 const index = () => {
     return (

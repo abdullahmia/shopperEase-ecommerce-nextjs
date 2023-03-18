@@ -1,6 +1,6 @@
-import Blogs from "@/components/blogs/Blogs";
+import Blogs from "@/components/blogs";
 import Head from "next/head";
-import BlogCategories from '../../components/blogs/categories/Categories';
+import BlogCategories from '../../components/blogs/categories';
 
 const index = () => {
     return (

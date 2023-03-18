@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Blog from "./Blog";
+import Blog from "./blog";
 
 const Blogs = ({label, blogs}) => {
   return (
@@ -8,7 +8,6 @@ const Blogs = ({label, blogs}) => {
               <h2 className="text-[20px] font-semibold text-[#333]">{label}</h2>
               <Link href="/blogs" className="text-[#333]">View All Articles</Link>    
         </div>}
-
         <div className="mt-10 grid lg:grid-cols-4 grid-cols- gap-6">
             <Blog />
             <Blog />

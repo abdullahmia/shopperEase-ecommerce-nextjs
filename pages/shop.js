@@ -1,6 +1,6 @@
-import Categories from "@/components/category/Categories";
-import Filter from "@/components/product-filter/Filter";
-import Products from "@/components/products/Products";
+import Categories from "@/components/category";
+import Filter from "@/components/product-filter";
+import Products from "@/components/products";
 import Head from "next/head";
 import Link from "next/link";
 import { MdKeyboardArrowRight } from "react-icons/md";

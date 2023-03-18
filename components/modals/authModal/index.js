@@ -5,7 +5,7 @@ import SignIn from './SignIn';
 import SignUp from './SignUp';
 
 export default function AuthModal() {
-    let [isOpen, setIsOpen] = useState(true)
+    let [isOpen, setIsOpen] = useState(false)
 
     function closeModal() {
         setIsOpen(false)

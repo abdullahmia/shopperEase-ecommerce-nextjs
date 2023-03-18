@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRouter } from 'next/router';
 import { AiFillStar, AiOutlineHeart } from "react-icons/ai";
-import productImg from '../../public/product.jpg';
+import productImg from '../../../public/product.jpg';
 
 const Product = () => {
     const router = useRouter();

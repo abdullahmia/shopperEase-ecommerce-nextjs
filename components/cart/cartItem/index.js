@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import productImg from '../../public/product.jpg';
+import productImg from '../../../public/product.jpg';
 
 
 const CartItem = () => {
