@@ -14,7 +14,6 @@ const Blogs = ({label, blogs}) => {
             <Blog />
             <Blog />
             <Blog />
-             
         </div>
     </div>
   )

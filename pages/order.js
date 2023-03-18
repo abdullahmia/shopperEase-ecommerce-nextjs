@@ -25,7 +25,7 @@ const order = () => {
                     <h2 className="text-[20px] text-[#333] font-[700]">Thank you. Your order has been received.</h2>
                 </div>
 
-                <div className="flex lg:flex-row flex-col items-center justify-between mt-10 lg:space-y-4">
+                <div className="flex lg:flex-row flex-col items-center justify-between mt-10 lg:fspace-y-4">
                     <div className="text-center">
                         <h3 className="text-[18px] font-[400] text-[#666] capitalize">order number</h3>
                         <h2 className="text-[18px] font-[700] text-[#333] capitalize">950</h2>

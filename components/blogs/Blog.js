@@ -5,7 +5,7 @@ import blogImg from '../../public/blog.jpg';
 
 const Blog = () => {
   return (
-    <div className="group cursor-pointer">
+    <Link href="/blog/asdfasdfas" className="group cursor-pointer">
         <div className="w-[295px] h-[190px]">
               <Image src={blogImg.src} width={295} height={190} className="rounded-lg transition duration-500 transform group-hover:scale-[0.95]" alt="Blog" />
         </div>
@@ -16,12 +16,12 @@ const Blog = () => {
                 <span className="text-[#16141479]">03.5.2023</span>
             </p>
             <h2 className="text-[#333] hover:text-[#42a4e8] font-semibold text-[16px]">Fusce lacinia arcuet nulla</h2>
-            <Link href="/shop" className='mt-3 text-[14px] font-semibold text-[#333] flex justify-center items-center gap-2'>
+            <Link href="/blog/asdfasdfas" className='mt-3 text-[14px] font-semibold text-[#333] flex justify-center items-center gap-2'>
                 <span className='uppercase'>Read More</span>
                 <BsArrowRight size={17} />
             </Link>
         </div>
-    </div>
+    </Link>
   )
 }
 
