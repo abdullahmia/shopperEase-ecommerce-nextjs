@@ -1,9 +1,10 @@
+import AuthModal from "@/components/modals/authModal";
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineHeart, AiOutlineMenu, AiOutlineUnorderedList } from "react-icons/ai";
 import { BiHomeAlt2, BiShoppingBag } from 'react-icons/bi';
 import { BsChevronDown, BsTelephone } from 'react-icons/bs';
-import { CiLocationOn, CiUser } from 'react-icons/ci';
+import { CiLocationOn } from 'react-icons/ci';
 import { MdLocalOffer } from 'react-icons/md';
 import CartDrower from '../../cart/cartDrower';
 import Search from "./Search";
@@ -31,10 +32,11 @@ const Header = ({ toggoleDrower }) => {
                             My Account
                         </Link>
                     </div>
-                    <button className="flex items-center gap-1 text-[13px] text-[#333333]">
+                      <AuthModal />
+                    {/* <button className="flex items-center gap-1 text-[13px] text-[#333333]">
                         <CiUser size={18} />
                         Sign In/Register
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>
