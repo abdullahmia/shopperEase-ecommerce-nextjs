@@ -1,4 +1,4 @@
-import Blogs from '@/components/blogs/Blogs';
+import Blogs from '@/components/blogs';
 import Categories from '@/components/category';
 import Products from '@/components/products';
 import Banner from '@/components/sliders/banner';

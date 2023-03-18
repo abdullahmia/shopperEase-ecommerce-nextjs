@@ -1,4 +1,4 @@
-import catImg from '../../public/category.jpg';
+import catImg from '../../../public/category.jpg';
 
 const Category = () => {
   return (
