@@ -28,7 +28,7 @@ const Header = ({ toggoleDrower }) => {
                             <Link href="/blog" className="text-[13px] text-[#333333]">
                                 Contact Us
                             </Link>
-                            <Link href="/blog" className="text-[13px] text-[#333333]">
+                            <Link href="/account" className="text-[13px] text-[#333333]">
                                 My Account
                             </Link>
                         </div>

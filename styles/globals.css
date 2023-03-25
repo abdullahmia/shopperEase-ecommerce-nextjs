@@ -17,3 +17,7 @@
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
 }
+
+.active {
+	@apply text-[#336699];
+}
