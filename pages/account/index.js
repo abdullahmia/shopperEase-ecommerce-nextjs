@@ -1,3 +1,4 @@
+import Layout from "@/components/ui/layout";
 import Head from "next/head";
 import Link from "next/link";
 import { CiHeart, CiImport, CiLocationArrow1, CiLogout, CiReceipt, CiUser } from "react-icons/ci";
@@ -5,7 +6,7 @@ import AccountLayout from '../../components/ui/layout/accountLayout';
 
 const index = () => {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>Account | ShopperEase</title>
             </Head>
@@ -55,7 +56,7 @@ const index = () => {
 
                 </AccountLayout>
             </main>
-        </>
+        </Layout>
     )
 }
 

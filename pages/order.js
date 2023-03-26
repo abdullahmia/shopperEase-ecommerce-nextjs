@@ -1,9 +1,11 @@
 import Head from "next/head";
 import { BiCheck, BiChevronRight } from "react-icons/bi";
+import Layout from '../components/ui/layout';
+
 
 const order = () => {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>Order Complete #ADFASDFASDF</title>
             </Head>
@@ -59,7 +61,7 @@ const order = () => {
                     <div className="p-8 border mt-8">
                         <h2 className="text-[18px] text-[#333] font-[700]">Product</h2>
                         <hr className="my-2" />
-                        
+
                         <div className="space-y-2 mt-5">
                             <div className="flex items-center justify-between">
                                 <p className="text-[14px] font-[400] text-[#336699] hover:underline">
@@ -79,7 +81,7 @@ const order = () => {
                                     $40.00
                                 </p>
                             </div>
-                            
+
                             <div className="space-y-5">
                                 <div className="flex items-center justify-between">
                                     <p className="text-[16px] font-[700] text-[#333]">
@@ -126,7 +128,7 @@ const order = () => {
 
 
             </main>
-        </>
+        </Layout>
     )
 }
 

@@ -1,10 +1,11 @@
+import Layout from "@/components/ui/layout";
 import Head from "next/head";
 import Image from "next/image";
 import blogImg from '../../public/blog.jpg';
 
 const index = () => {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>Blog detail</title>
             </Head>
@@ -41,7 +42,7 @@ const index = () => {
                 </div>
 
             </main>
-        </>
+        </Layout>
     )
 }
 

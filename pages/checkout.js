@@ -1,10 +1,12 @@
 import Head from "next/head";
 import { BiChevronRight } from "react-icons/bi";
 import CheckoutForm from '../components/checkout';
+import Layout from '../components/ui/layout';
+
 
 export default function checkout() {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>Checkout | ShopperEase</title>
             </Head>
@@ -31,6 +33,6 @@ export default function checkout() {
 
             </main>
 
-        </>
+        </Layout>
     )
 }

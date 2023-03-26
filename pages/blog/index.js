@@ -1,10 +1,11 @@
 import Blogs from "@/components/blogs";
+import Layout from "@/components/ui/layout";
 import Head from "next/head";
 import BlogCategories from '../../components/blogs/categories';
 
 const index = () => {
     return (
-        <>
+        <Layout>
             <Head>
                 <title>ShopperEase | Ecommerce</title>
             </Head>
@@ -16,7 +17,7 @@ const index = () => {
                 <Blogs  />
 
             </main>
-        </>
+        </Layout>
     )
 }
 

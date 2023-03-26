@@ -1,17 +1,19 @@
-import Head from "next/head"
+import Head from "next/head";
+import Layout from '../components/ui/layout';
+
 
 const contact = () => {
   return (
-    <>
-        <Head>
-            <title>Contact | ShopperEase</title>
-        </Head>
+    <Layout>
+      <Head>
+        <title>Contact | ShopperEase</title>
+      </Head>
 
-        <main className="container py-10">
-            <h2>Contact</h2>
-        </main>
-    
-    </>
+      <main className="container py-10">
+        <h2>Contact</h2>
+      </main>
+
+    </Layout>
   )
 }
 

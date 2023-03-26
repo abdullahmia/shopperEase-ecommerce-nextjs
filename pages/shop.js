@@ -4,11 +4,12 @@ import Products from "@/components/products";
 import Head from "next/head";
 import Link from "next/link";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Layout from '../components/ui/layout';
 import shopBanner from '../public/shopBanner.jpg';
 
-export default function Shop () {
+export default function Shop() {
     return (
-       <>
+        <Layout>
             <Head>
                 <title>Shop | ShopperEase</title>
             </Head>
@@ -50,7 +51,7 @@ export default function Shop () {
                 </div>
 
             </main>
-       
-       </>
+
+        </Layout>
     )
 }
