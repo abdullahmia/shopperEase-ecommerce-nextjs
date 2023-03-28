@@ -58,25 +58,25 @@ export default function EditAddressModal() {
                                             <div className='mb-3 flex gap-4 justify-between items-center lg:flex-nowrap flex-wrap'>
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Name</label>
-                                                    <input type="text" className="w-full" style={{ border: "0.5px solid #d3cece" }} />
+                                                    <input type="text" className="w-full text-[#333] border p-2 focus:outline-none" />
                                                 </div>
 
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Company</label>
-                                                    <input type="text" className="w-full" style={{ border: "0.5px solid #d3cece" }} />
+                                                    <input type="text" className="w-full text-[#333] border p-2 focus:outline-none" />
                                                 </div>
                                             </div>
 
                                             <div className='mb-3 flex gap-4 justify-between items-center lg:flex-nowrap flex-wrap'>
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Address</label>
-                                                    <input type="text" className="w-full" style={{ border: "0.5px solid #d3cece" }} />
+                                                    <input type="text" className="w-full text-[#333] border p-2 focus:outline-none" />
                                                 </div>
 
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Country</label>
 
-                                                    <select className='w-full' style={{ border: "0.5px solid #d3cece" }}>
+                                                    <select className="w-full text-[#333] border p-2 focus:outline-none">
                                                         <option>Select country</option>
                                                         <option value="Bangladesh">Bangladesh</option>
                                                         <option value="Bangladesh">India</option>
@@ -90,7 +90,7 @@ export default function EditAddressModal() {
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">City</label>
 
-                                                    <select className='w-full' style={{ border: "0.5px solid #d3cece" }}>
+                                                    <select className="w-full text-[#333] border p-2 focus:outline-none">
                                                         <option>Select City</option>
                                                         <option value="Bangladesh">Dhaka</option>
                                                         <option value="Bangladesh">Shylhet</option>
@@ -102,7 +102,7 @@ export default function EditAddressModal() {
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Country</label>
 
-                                                    <select className='w-full' style={{ border: "0.5px solid #d3cece" }}>
+                                                    <select className="w-full text-[#333] border p-2 focus:outline-none">
                                                         <option>Select state</option>
                                                         <option value="Bangladesh">Dhaka</option>
                                                         <option value="Bangladesh">Shylhet</option>
@@ -115,12 +115,12 @@ export default function EditAddressModal() {
                                             <div className='mb-6 flex gap-4 justify-between items-center lg:flex-nowrap flex-wrap'>
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Post code</label>
-                                                    <input type="text" className="w-full" style={{ border: "0.5px solid #d3cece" }} />
+                                                    <input type="text" className="w-full text-[#333] border p-2 focus:outline-none" />
                                                 </div>
 
                                                 <div className="w-full">
                                                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Phone number</label>
-                                                    <input type="text" className="w-full" style={{ border: "0.5px solid #d3cece" }} />
+                                                    <input type="text" className="w-full text-[#333] border p-2 focus:outline-none" />
                                                 </div>
                                             </div>
 

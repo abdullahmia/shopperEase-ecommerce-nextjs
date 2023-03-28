@@ -21,3 +21,16 @@
 .active {
 	@apply text-[#336699];
 }
+
+.input {
+	border: none;
+	outline: none;
+}
+.input:focus {
+	border: none !important;
+	outline: none !important;
+}
+.input:focus-visible {
+	outline: none;
+	border: none;
+}

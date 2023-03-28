@@ -6,12 +6,12 @@ const index = () => {
             <form>
                 <div className="mb-5">
                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Username or email address *</label>
-                    <input type="text" className="w-full" style={{ border: "0.5px solid #d3cece" }} />
+                    <input type="text" className="w-full text-[#333] border p-2 focus:outline-none"  />
                 </div>
 
                 <div className="mb-5">
                     <label className="block text-[14px] font-[400] text-[#666] mb-1">Password *</label>
-                    <input type="text" className="w-full" style={{ border: "0.5px solid #d3cece" }} />
+                    <input type="text" className="w-full text-[#333] border p-2 focus:outline-none" />
                 </div>
 
                 <div className="mb-5 space-x-2">
