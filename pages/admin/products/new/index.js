@@ -218,12 +218,17 @@ const Index = () => {
                     </div>
                     <div className='lg:col-span-4 col-span-12'>
                         <div className='p-4 bg-white border space-y-2'>
-                            <h2 className='text-[16px] text-[#333] font-[600]'>Visibility</h2>
-                            <select className='border w-full focus:outline-none py-2 bg-white px-2 mt-1 text-[14px]'>
-                                <option selected>-- Select visibility --</option>
-                                <option value={true}>Published</option>
-                                <option value={false}>Hidden</option>
-                            </select>
+                            <h2 className='text-[16px] text-[#333] font-[600]'>Status</h2>
+                            <div>
+                                <div className='flex items-center space-x-2'>
+                                    <input type="radio" name='status' id='enabled' className='focus:outline-none' />
+                                    <label htmlFor="enabled" className='text-[#333] text-[14px] font-[500]'>Publish</label>
+                                </div>
+                                <div className='flex items-center space-x-2'>
+                                    <input type="radio" name='status' id='disabled' className='focus:outline-none' />
+                                    <label htmlFor="disabled" className='text-[#333] text-[14px] font-[500]'>Draft</label>
+                                </div>
+                            </div>
                         </div>
 
                         <div className='p-4 bg-white border space-y-2 mt-5'>

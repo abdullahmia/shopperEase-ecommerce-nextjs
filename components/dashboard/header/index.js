@@ -44,12 +44,12 @@ const index = () => {
                                 leaveFrom="transform opacity-100 scale-100"
                                 leaveTo="transform opacity-0 scale-95"
                             >
-                                <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 bg-white shadow-lg">
-                                    <div>
-                                        <Link href="/admin/profile">Profile</Link>
-                                        <Link href="/admin/profile">Settings</Link>
-                                        <br />
-                                        
+                                <Menu.Items className="absolute right-0 top-[45px] mt-2 w-56 origin-top-right divide-y divide-gray-100 bg-white shadow-lg">
+                                    <div className="">
+                                        <Link href="/admin/profile" className='block p-3 text-[14px] text-[#333]'>Profile</Link>
+                                        <Link href="/admin/profile/settings" className='block p-3 text-[14px] text-[#333]'>Settings</Link>
+                                        <hr />
+                                        <button className='block p-3 text-[14px] text-[#333]'>Logout</button>
                                     </div>
                                 </Menu.Items>
                             </Transition>
